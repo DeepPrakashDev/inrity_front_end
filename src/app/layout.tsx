@@ -1,4 +1,3 @@
-"use client";
 import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import { AuthProvider } from "./context/UserAuthContext";
