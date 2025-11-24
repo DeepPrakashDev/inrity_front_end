@@ -66,7 +66,8 @@ const page = () => {
           <div className="flex flex-wrap -mx-2 justify-between gap-2">
             <div className="latest-update-card w-full md:w-90 lg:w-[30%] p-4 lg:mb-0 md:mb-3 mb-3 md:mx-2 border border-[#e0e2e7] rounded-lg text-white">
               <h4 className="text-[18px] font-semibold mb-3">
-                Industry Updates
+               { 'Industry Updates'}
+
               </h4>
               <p className="text-[14px] mb-5">
                 Short brief Lorem ipsum dolor sit amet, consectetur adipiscing
