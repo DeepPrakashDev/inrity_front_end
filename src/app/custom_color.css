@@ -1,0 +1,155 @@
+/* .logo-dv{
+    background: rgb(13, 112, 0) !important;
+} */
+
+.nav-menu{
+    background: rgb(13, 112, 0) !important;
+}
+
+.report-types {
+    background: rgb(13, 112, 0) !important;
+}
+
+.subscription-main .subtitle {
+    color: rgb(13, 112, 0) !important;
+}
+
+.subscription-main .view-report-btn {
+    background: rgb(13, 112, 0) !important;
+}
+
+.top-products .sec-bg {
+    background: rgb(13, 112, 0) !important;
+}
+
+.latest-update-card:first-child {
+    background: rgb(13, 112, 0) !important;
+}
+
+.latest-update-card a {
+    color: rgb(13, 112, 0) !important;
+}
+
+.trending-now .content-wrap {
+    background: linear-gradient(90deg, #4dbf0821 0%, #1e950021 4.5%, #46933321 99.99%, #08890021 100%) !important;
+}
+
+.trending-now-card h4 {
+    color: rgb(13, 112, 0) !important;
+}
+
+.our-clients .slick-slider .slider-content .company-info-dv .company-name {
+    color: rgb(13, 112, 0) !important;
+}
+
+
+/* ------------Market Overview------------- */
+
+.data-tree .first-heading h5 {
+    color: rgb(13, 112, 0) !important;
+}
+
+.data-tree .first-heading p {
+    color: rgb(13, 112, 0) !important;
+}
+
+.active-tab-btn {
+    background: rgb(13, 112, 0) !important;
+    color: #fff;
+}
+
+.key-regions {
+    background: rgb(13, 112, 0) !important;
+}
+
+.report-statistics {
+    background: rgb(13, 112, 0) !important;
+}
+
+.mar-overview-tabs .rd-list hr {
+    color: rgb(13, 112, 0) !important;
+}
+
+.mar-overview-tabs .rd-list .link-wrap a {
+    color: rgb(13, 112, 0) !important;
+}
+
+.mar-overview-tabs .rd-list .link-wrap a:first-child svg {
+    background: rgb(13, 112, 0) !important;
+}
+
+.forecast-chart .sec-summary .tab-content .tab-body ul{
+    background: linear-gradient(90deg, #4dbf0821 0%, #1e950021 4.5%, #46933321 99.99%, #08890021 100%) !important;
+}
+
+.mar-overview-tabs .printer-market-scop .scope-table .scope-col h4 {
+    background: linear-gradient(90deg, #4dbf0821 0%, #1e950021 4.5%, #46933321 99.99%, #08890021 100%) !important;
+}
+
+/* ------------Category Listing------------- */
+
+.category-listing .categories li a {
+    color: rgb(13, 112, 0) !important;
+}
+
+/* ------------Report Listing------------- */
+
+.report-listing .report-lists .report-list-card hr {
+    color: rgb(13, 112, 0) !important;
+}
+
+.report-listing .report-lists .report-list-card .link-wrap a {
+    color: rgb(13, 112, 0) !important;
+}
+
+.report-listing .report-lists .report-list-card .link-wrap a:first-child svg {
+    background: rgb(13, 112, 0) !important;
+}
+
+.report-listing .report-lists .report-list-card .card-top-heading svg {
+    stroke: rgb(13, 112, 0) !important;
+}
+
+.report-listing .report-lists .report-list-card .card-top-heading span {
+    color: rgb(13, 112, 0) !important;
+}
+
+.report-list-sidebar button {
+    background: linear-gradient(90deg, #4dbf0821 0%, #1e950021 4.5%, #46933321 99.99%, #08890021 100%) !important;
+}
+
+/* ------------Profile------------- */
+.profile-main .top-bar .current-page{
+    color: rgb(13, 112, 0) !important;
+}
+
+.profile-main .profile-banner .profile-info .avatar-name h4 {
+    color: rgb(13, 112, 0) !important;
+}
+
+.products-subscribed .explore-industry-card .subtitle {
+    color: rgb(13, 112, 0) !important;
+}
+
+.products-subscribed .recent-report-list {}
+
+/* ------------Industry Update------------- */
+
+.subscription-main .chart-months {
+    background: linear-gradient(90deg, #4dbf0821 0%, #1e950021 4.5%, #46933321 99.99%, #08890021 100%) !important;
+}
+
+.subscription-main .subscription-btn {
+    background: rgb(13, 112, 0) !important;
+    color: #fff;
+}
+
+.subscription-main .chart-months .active {
+    background: rgb(13, 112, 0) !important;
+}
+
+/* ------------Footer------------- */
+
+footer {
+    background: rgb(13, 112, 0) !important;
+}

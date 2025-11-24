@@ -1,0 +1,162 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+/* @import "custom_color.css"; */
+
+
+:root {
+  /* --background: #ffffff; */
+  --background: #f9f9fc;
+  --foreground: #171717;
+  --primary-color: #0029ff;
+  /* --primary-color: rgb(13, 112, 0); */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+}
+
+ul li {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 80rem;
+  padding: 0 15px;
+}
+
+.icon-user::before {
+  content: "\f007";
+  font-family: "Font Awesome 6 Free";
+  margin-right: 0.5rem;
+}
+
+.login-main {
+  background: linear-gradient(89.83deg, #170ad0 -.85%, #010006 129.03%);
+  background: linear-gradient(90deg, #7b61ff21 0%, #3251f121 4.5%, #ccd3fc21 99.99%, #ffffff21 100%);
+}
+
+@media only screen and (max-width:991px) {
+  .navbar-main .nav-menu {
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-main .nav-menu.hide {
+    transform: translateX(-100%);
+  }
+
+  .navbar-main .nav-menu.show {
+    transform: translateX(0);
+  }
+}
+
+.subscription-main {}
+
+/* ---------------Packaging Industry------------- */
+.industry-update .latest-update-card:first-child {
+  background: linear-gradient(89.83deg, #170AD0 -0.85%, #010006 129.03%);
+}
+
+.trending-now .content-wrap {
+  background: linear-gradient(90deg, rgba(123, 97, 255, 0.13) 0%, rgba(50, 81, 241, 0.13) 4.5%, rgba(204, 211, 252, 0.13) 99.99%, rgba(255, 255, 255, 0.13) 100%);
+}
+
+/* ---------------Scrollbar------------- */
+.key-trends::-webkit-scrollbar {
+  width: 3px;
+}
+
+.key-trends::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.key-trends::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.key-trends::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.key-regions {
+  background: linear-gradient(90.91deg, #0029FF 3.16%, #7F00E3 99.22%);
+}
+
+.vertical-overflow::-webkit-scrollbar {
+  width: 3px;
+}
+
+.vertical-overflow::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.vertical-overflow::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.vertical-overflow::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ----------------- */
+.horizontal-overflow::-webkit-scrollbar {
+  height: 3px;
+}
+
+.horizontal-overflow::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.horizontal-overflow::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.horizontal-overflow::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.report-statistics {
+  /* background: rgba(32, 0, 160, 1); */
+  background: var(--RD-Purple, #2000A0);
+}
+
+
+.rd-list {
+  box-shadow: 0px 0px 64px 0px #00000040;
+}
